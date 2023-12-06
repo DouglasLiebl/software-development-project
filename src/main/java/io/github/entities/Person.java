@@ -1,9 +1,10 @@
 package io.github.entities;
 
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 
 @Getter @Setter
-@Builder
+@SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
