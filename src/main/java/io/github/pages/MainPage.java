@@ -43,10 +43,11 @@ public class MainPage extends javax.swing.JFrame {
         jMenuItemAlugar = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         setLocation(new java.awt.Point(500, 200));
 
         kGradientPanel6.setkEndColor(new java.awt.Color(153, 153, 255));
-        kGradientPanel6.setkStartColor(new java.awt.Color(0, 204, 204));
+        kGradientPanel6.setkStartColor(new java.awt.Color(153, 153, 255));
 
         javax.swing.GroupLayout kGradientPanel6Layout = new javax.swing.GroupLayout(kGradientPanel6);
         kGradientPanel6.setLayout(kGradientPanel6Layout);
@@ -56,7 +57,7 @@ public class MainPage extends javax.swing.JFrame {
         );
         kGradientPanel6Layout.setVerticalGroup(
             kGradientPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 430, Short.MAX_VALUE)
+            .addGap(0, 512, Short.MAX_VALUE)
         );
 
         jMenuBar1.setBorder(null);
@@ -66,7 +67,7 @@ public class MainPage extends javax.swing.JFrame {
 
         jMenuCadastro.setIcon(new javax.swing.ImageIcon(getClass().getResource("/clapperboard.png"))); // NOI18N
         jMenuCadastro.setText("Cadastrar");
-        jMenuCadastro.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        jMenuCadastro.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
 
         jMenuItemFilme.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jMenuItemFilme.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seta-pequena-direita.png"))); // NOI18N
@@ -91,7 +92,7 @@ public class MainPage extends javax.swing.JFrame {
         jMenuBar1.add(jMenuCadastro);
 
         jMenu1.setText("Consultar");
-        jMenu1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        jMenu1.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
 
         jMenuItemDadosCliente.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jMenuItemDadosCliente.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seta-pequena-direita.png"))); // NOI18N
@@ -107,7 +108,7 @@ public class MainPage extends javax.swing.JFrame {
 
         jMenuAtualizar.setText("Atualizar");
         jMenuAtualizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jMenuAtualizar.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        jMenuAtualizar.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
 
         jMenuFilme.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jMenuFilme.setIcon(new javax.swing.ImageIcon(getClass().getResource("/seta-pequena-direita.png"))); // NOI18N
@@ -127,7 +128,7 @@ public class MainPage extends javax.swing.JFrame {
         jMenuBar1.add(jMenuAtualizar);
 
         jMenuAlugar.setText("Alugar");
-        jMenuAlugar.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        jMenuAlugar.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         jMenuAlugar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuAlugarActionPerformed(evt);
@@ -156,7 +157,7 @@ public class MainPage extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(kGradientPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(kGradientPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         pack();

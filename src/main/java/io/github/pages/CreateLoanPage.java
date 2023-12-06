@@ -35,14 +35,14 @@ public class CreateLoanPage extends javax.swing.JFrame {
         jButtonSave = new javax.swing.JButton();
         jButtonClean = new javax.swing.JButton();
         jButtonCancel = new javax.swing.JButton();
-        textField1 = new TextField();
-        textField2 = new TextField();
+        textField1 = new io.github.pages.textfield.TextField();
+        textField2 = new io.github.pages.textfield.TextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setLocation(new java.awt.Point(500, 200));
 
         kGradientPanel1.setkEndColor(new java.awt.Color(153, 153, 255));
-        kGradientPanel1.setkStartColor(new java.awt.Color(0, 204, 204));
+        kGradientPanel1.setkStartColor(new java.awt.Color(153, 153, 255));
         kGradientPanel1.setPreferredSize(new java.awt.Dimension(760, 460));
 
         jLabelCadastrarFilme.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
@@ -203,8 +203,8 @@ public class CreateLoanPage extends javax.swing.JFrame {
     private javax.swing.JButton jButtonSave;
     private javax.swing.JLabel jLabelCadastrarFilme;
     private keeptoo.KGradientPanel kGradientPanel1;
-    private TextField textField1;
-    private TextField textField2;
+    private io.github.pages.textfield.TextField textField1;
+    private io.github.pages.textfield.TextField textField2;
     // End of variables declaration//GEN-END:variables
     private TextField textField;
 }

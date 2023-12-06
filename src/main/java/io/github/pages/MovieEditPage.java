@@ -66,10 +66,10 @@ public class MovieEditPage extends javax.swing.JFrame {
         setResizable(false);
 
         kGradientPanel3.setkEndColor(new java.awt.Color(153, 153, 255));
-        kGradientPanel3.setkStartColor(new java.awt.Color(0, 204, 204));
+        kGradientPanel3.setkStartColor(new java.awt.Color(153, 153, 255));
         kGradientPanel3.setPreferredSize(new java.awt.Dimension(760, 460));
 
-        jLabelCadastrarFilme2.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        jLabelCadastrarFilme2.setFont(new java.awt.Font("JetBrains Mono", 0, 24)); // NOI18N
         jLabelCadastrarFilme2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/clapperboard.png"))); // NOI18N
         jLabelCadastrarFilme2.setText("Editar Filme");
 
@@ -228,7 +228,7 @@ public class MovieEditPage extends javax.swing.JFrame {
                         .addComponent(jButtonDeletar)
                         .addGap(51, 51, 51)
                         .addComponent(jButtonSair)))
-                .addContainerGap(75, Short.MAX_VALUE))
+                .addContainerGap(73, Short.MAX_VALUE))
         );
         kGradientPanel3Layout.setVerticalGroup(
             kGradientPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
