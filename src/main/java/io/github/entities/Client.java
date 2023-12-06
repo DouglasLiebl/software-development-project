@@ -7,7 +7,9 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Client extends Person{
+public class Client extends Person {
     private String email;
     private String cpf;
+
+
 }

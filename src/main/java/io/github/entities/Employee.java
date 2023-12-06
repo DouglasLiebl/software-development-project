@@ -1,17 +1,18 @@
 package io.github.entities;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
 
-import java.util.Date;
+import java.time.OffsetDateTime;
 
-@Getter
-@Setter
-@SuperBuilder
+@Getter @Setter @SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString
 public class Employee extends Person{
-    private double salary;
-    private Date hireDate;
+
+    private Double salary;
+    private OffsetDateTime hireDate;
 }
