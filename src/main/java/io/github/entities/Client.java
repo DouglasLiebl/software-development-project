@@ -6,10 +6,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Client {
-
-    private Long id;
-    private String name;
+public class Client extends Person{
     private String email;
     private String cpf;
 }
